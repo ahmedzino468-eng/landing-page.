@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فرصتك تبدأ دخل حقيقي</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+text-align:center;
+}
+
+header{
+padding:60px 20px;
+}
+
+h1{
+font-size:36px;
+color:#00ff88;
+}
+
+.section{
+padding:50px 20px;
+max-width:900px;
+margin:auto;
+}
+
+.lang-box{
+background:#1e293b;
+padding:25px;
+margin:20px 0;
+border-radius:15px;
+box-shadow:0 0 20px rgba(0,255,136,0.2);
+}
+
+img{
+max-width:90%;
+border-radius:15px;
+margin:15px 0;
+box-shadow:0 0 20px rgba(0,255,136,0.3);
+}
+
+.btn{
+display:inline-block;
+padding:18px 40px;
+background:#00ff88;
+color:#000;
+font-size:20px;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+margin:15px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#00cc6a;
+transform:scale(1.05);
+}
+
+.telegram{
+background:#229ED9;
+color:white;
+}
+
+.countdown{
+font-size:28px;
+margin-top:20px;
+color:#ff4d4d;
+font-weight:bold;
+}
+
+footer{
+padding:30px;
+background:#0a0f1f;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🔥 فرصتك تبدأ دخل حقيقي من الانترنت</h1>
+<p>النجاح يبدأ بخطوة… هل أنت مستعد؟</p>
+<div class="countdown" id="timer"></div>
+</header>
+
+<div class="section">
+
+<div class="lang-box">
+<h2>🇩🇿 العربية</h2>
+<p>
+هذه فرصتك لو حاب تبدأ دخل حقيقي وتطور من نفسك.  
+ما راح أبيعلك كورسات ولا نقولك ادفع مقابل معلومة.  
+كل شيء يعتمد عليك وعلى رغبتك في التطوير.  
+حتى لو تبدأ بمبالغ صغيرة… البداية هي الأهم.  
+لو أنت مهتم فعلاً تصنع دخل لنفسك وتغير مستواك — مرحباً بك.
+</p>
+</div>
+
+<div class="lang-box">
+<h2>🇫🇷 Français</h2>
+<p>
+C'est ton opportunité pour commencer à générer un vrai revenu en ligne.  
+Je ne vends pas de formations et je ne te demande pas de payer pour une information.  
+Tout dépend de toi et de ton envie d'évoluer.  
+Même si tu commences petit, l’important est de commencer.  
+Si tu es vraiment motivé à développer tes compétences et créer ton propre revenu — bienvenue.
+</p>
+</div>
+
+<div class="lang-box">
+<h2>🇬🇧 English</h2>
+<p>
+This is your chance to start building real income online.  
+I’m not selling courses and I won’t ask you to pay for information.  
+Everything depends on your mindset and your willingness to grow.  
+Even if you start small, taking action is what matters.  
+If you are truly motivated to improve yourself and build income — you are welcome.
+</p>
+</div>
+
+<h2>📸 إثبات سحب</h2>
+<img src="image1.jpg">
+<img src="image2.jpg">
+<img src="image3.jpg">
+
+<div>
+<a href="https://melbetaffiliates.com/fr/sign-up?tag=d_3205647m_18645c_" 
+class="btn" target="_blank">
+🚀 سجل الآن
+</a>
+
+<a href="https://t.me/bekhouche_aff" 
+class="btn telegram" target="_blank">
+📩 تواصل معي على تليغرام
+</a>
+</div>
+
+</div>
+
+<footer>
+© 2026 - All Rights Reserved
+</footer>
+
+<script>
+// عداد تنازلي 24 ساعة
+var countDownDate = new Date().getTime() + (24*60*60*1000);
+
+var x = setInterval(function() {
+
+var now = new Date().getTime();
+var distance = countDownDate - now;
+
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("timer").innerHTML = 
+"⏳ العرض ينتهي خلال: " + hours + "h "
++ minutes + "m " + seconds + "s ";
+
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("timer").innerHTML = "انتهى العرض";
+}
+}, 1000);
+</script>
+
+</body>
+</html>
